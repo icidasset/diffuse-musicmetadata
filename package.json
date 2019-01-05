@@ -1,7 +1,7 @@
 {
   "private": true,
   "dependencies": {
-    "music-metadata-browser": "^0.6.5",
+    "music-metadata-browser": "0.7.0",
     "streaming-http-token-reader": "0.0.1"
   },
   "devDependencies": {
