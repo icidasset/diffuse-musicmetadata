@@ -1,8 +1,8 @@
 {
   "private": true,
   "dependencies": {
-    "music-metadata-browser": "0.7.0",
-    "streaming-http-token-reader": "0.0.1"
+    "music-metadata-browser": "0.7.1",
+    "streaming-http-token-reader": "0.0.3"
   },
   "devDependencies": {
     "parcel-bundler": "^1.11.0"
