@@ -1728,7 +1728,7 @@ debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
-debug@^4.0.1, debug@^4.1.0:
+debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
   integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
@@ -2134,10 +2134,10 @@ fast-levenshtein@~2.0.4:
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
-file-type@^10.5.0:
-  version "10.7.1"
-  resolved "https://registry.yarnpkg.com/file-type/-/file-type-10.7.1.tgz#bcfdd618fddfa7f7e5fc504e08b62cfec7bda8f2"
-  integrity sha512-kUc4EE9q3MH6kx70KumPOvXLZLEJZzY9phEVg/bKWyGZ+OA9KoKZzFR4HS0yDmNv31sJkdf4hbTERIfplF9OxQ==
+file-type@^11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/file-type/-/file-type-11.0.0.tgz#576ca9ec099925b0c4df7e75d3be52696b62fb52"
+  integrity sha512-ixd0mHkDO8KJ1S+ANTM+cZoZgL+TB0txLMm9KjTndfOjFYuRmrUcOtmSEm+e9s7wrynZOvvRD/8LwMQ6a24Irg==
 
 filesize@^3.6.0:
   version "3.6.1"
@@ -3107,26 +3107,27 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
   integrity sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
 
-music-metadata-browser@0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/music-metadata-browser/-/music-metadata-browser-0.7.1.tgz#ac9ad8b679d2810dda6447a82e55475fb1f23b9e"
-  integrity sha512-7T1emcevOXCg2uP2mn1acUSfRHnVRsEYnG+DStG+vBdYvG2TOATBh5gkHOSCXkXuUsFr5yf8ZBstAJrNpo2W1Q==
+music-metadata-browser@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/music-metadata-browser/-/music-metadata-browser-1.0.0.tgz#ba167388fb327499a2a0ec6e47247015bdce31fe"
+  integrity sha512-gEyoyD+9tsA0oblAr/GpOrkIr8+wNhGggIouXKEy7fS/809NmoDn4JGaUHgqiEHxaRlK5GlhBG0k/qI8DdnOHw==
   dependencies:
     assert "^1.4.1"
     buffer "^5.2.1"
     debug "^4.0.1"
-    music-metadata "^3.5.2"
-    readable-stream "^3.0.6"
+    music-metadata "^3.8.0"
+    readable-stream "^3.3.0"
+    readable-web-to-node-stream "^1.0.0"
     remove "^0.1.5"
     typedarray-to-buffer "^3.1.5"
 
-music-metadata@^3.5.2:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/music-metadata/-/music-metadata-3.5.2.tgz#73a745504ba05565d04522d77172876e0db17c01"
-  integrity sha512-XiqnSzysdMSUHMHAZ1dhvBoFD/Mmn1pIBN+sOp32XBtD1+eYjSdkAO3bvBaO+21WKS5Q6B6fuEnclY3U+Kq7wA==
+music-metadata@^3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/music-metadata/-/music-metadata-3.8.0.tgz#85fa7476d38646187c3f195bf43dd8a6b9da4dae"
+  integrity sha512-aIADbp3uCS+ANr4nnFEHzTzMy81OT7PR7WBMW73SJ28Y7P94nnEugmTOj1ICP2JmxBBDlo+MeYVgiPnxVN69tg==
   dependencies:
     debug "^4.1.0"
-    file-type "^10.5.0"
+    file-type "^11.0.0"
     media-typer "0.3.0"
     strtok3 "^2.3.0"
     token-types "^1.0.1"
@@ -4336,6 +4337,22 @@ readable-stream@^3.0.6:
     inherits "^2.0.3"
     string_decoder "^1.1.1"
     util-deprecate "^1.0.1"
+
+readable-stream@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.3.0.tgz#cb8011aad002eb717bf040291feba8569c986fb9"
+  integrity sha512-EsI+s3k3XsW+fU8fQACLN59ky34AZ14LoeVZpYwmZvldCFo0r0gnelwF2TcMjLor/BTL5aDJVBMkss0dthToPw==
+  dependencies:
+    inherits "^2.0.3"
+    string_decoder "^1.1.1"
+    util-deprecate "^1.0.1"
+
+readable-web-to-node-stream@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/readable-web-to-node-stream/-/readable-web-to-node-stream-1.0.0.tgz#dec81947215beb4b39ef46d6686b06a1090be2ea"
+  integrity sha512-m1dGSn8uAp73EOY8GI+TJTF3z+DBow1exZBgL/3uBZ82TCf4oOH1LPZ87cox+QdgVcduy+35H04IYDg2zrpN/w==
+  dependencies:
+    debug "^4.1.1"
 
 readdirp@^2.2.1:
   version "2.2.1"
