@@ -2,6 +2,7 @@
   "private": true,
   "dependencies": {
     "music-metadata-browser": "1.2.3",
+    "regenerator-runtime": "^0.13.3",
     "streaming-http-token-reader": "0.1.0"
   },
   "devDependencies": {
@@ -12,5 +13,8 @@
   },
   "alias": {
     "stream": "readable-stream"
-  }
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }
