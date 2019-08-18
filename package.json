@@ -1,11 +1,11 @@
 {
   "private": true,
   "dependencies": {
-    "music-metadata-browser": "1.0.0",
-    "streaming-http-token-reader": "0.0.3"
+    "music-metadata-browser": "1.2.3",
+    "streaming-http-token-reader": "0.1.0"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.11.0"
+    "parcel-bundler": "^1.12.3"
   },
   "scripts": {
     "build": "parcel build index.js --out-file musicmetadata.min.js --no-source-maps"
